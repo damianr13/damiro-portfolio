@@ -31,7 +31,7 @@ function App() {
           <div className="flex flex-wrap gap-4 text-sm">
             <a href="mailto:damian.robert.andrei@gmail.com" className="flex items-center gap-2">
               <Mail size={16} />
-              damian.robert.andrei@gmail.com
+              hej@damiro.se
             </a>
             <a href="https://www.linkedin.com/in/damianr13" className="flex items-center gap-2">
               <Linkedin size={16} />
@@ -51,10 +51,22 @@ function App() {
             Work Experience
           </h2>
           
+          
           <div className="space-y-8">
+
+            <div className="border-l-4 border-blue-500 pl-4">
+              <h3 className="font-bold">Founding Machine Learning Engineer | Minimist</h3>
+              <p className="text-sm text-gray-600 dark:text-gray-400">Sep. 2024 – Present | Stockholm</p>
+              <ul className="mt-2 list-disc list-inside space-y-1">
+                <li>Developed a second hand pricing engine based on PyMC</li>
+                <li>Implemented MLOps best practices through tracing, logging and fine-tuning</li>
+                <li>Created a flexible prompt management system</li>
+              </ul>
+            </div>
+
             <div className="border-l-4 border-blue-500 pl-4">
               <h3 className="font-bold">Senior Software Engineer | Panprices AB</h3>
-              <p className="text-sm text-gray-600 dark:text-gray-400">Jul. 2022 – Present | Stockholm</p>
+              <p className="text-sm text-gray-600 dark:text-gray-400">Jul. 2022 – Aug. 2024 | Stockholm</p>
               <ul className="mt-2 list-disc list-inside space-y-1">
                 <li>Led the creation of Loupe, used by design brands like Hay, Gubi and Flos</li>
                 <li>Automated 70% of manual product matching using PyTorch and Visual Language Models</li>
