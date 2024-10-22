@@ -34,8 +34,12 @@ function App() {
               hej@damiro.se
             </a>
             <a href="https://www.linkedin.com/in/damianr13" className="flex items-center gap-2">
-              <Linkedin size={16} />
+              <img src="/linkedin.svg" alt="LinkedIn" width="16" height="16" className="dark:invert"/>
               linkedin.com/in/damianr13
+            </a>
+            <a href="https://github.com/damianr13" className="flex items-center gap-2">
+              <img src="/github.svg" alt="GitHub" width="16" height="16" className="dark:invert"/>
+              github.com/damianr13
             </a>
             <span className="flex items-center gap-2">
               <MapPin size={16} />
