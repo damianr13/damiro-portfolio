@@ -29,7 +29,7 @@ function App() {
         {/* Contact Info */}
         <section className="mb-8">
           <div className="flex flex-wrap gap-4 text-sm">
-            <a href="mailto:damian.robert.andrei@gmail.com" className="flex items-center gap-2">
+            <a href="mailto:hej@damiro.se" className="flex items-center gap-2">
               <Mail size={16} />
               hej@damiro.se
             </a>
